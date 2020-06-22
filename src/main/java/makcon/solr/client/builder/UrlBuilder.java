@@ -1,4 +1,4 @@
-package makson.search.solr.builder;
+package makcon.solr.client.builder;
 
 import lombok.NoArgsConstructor;
 
@@ -6,7 +6,7 @@ import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.List;
 
-import static makson.search.solr.builder.UrlBuilder.Protocol.*;
+import static makcon.solr.client.builder.UrlBuilder.Protocol.*;
 
 @NoArgsConstructor(staticName = "create")
 public final class UrlBuilder {

@@ -1,4 +1,4 @@
-package makson.search.solr.builder;
+package makcon.solr.client.builder;
 
 import org.junit.Test;
 

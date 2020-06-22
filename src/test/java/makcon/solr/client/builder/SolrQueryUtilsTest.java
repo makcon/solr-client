@@ -1,11 +1,11 @@
-package makson.search.solr.builder;
+package makcon.solr.client.builder;
 
 import org.apache.solr.client.solrj.SolrQuery;
 import org.junit.Test;
 
 import java.util.List;
 
-import static makson.search.solr.builder.SolrQueryUtils.getSolrQueryCopy;
+import static makcon.solr.client.builder.SolrQueryUtils.getSolrQueryCopy;
 import static org.apache.solr.client.solrj.SolrQuery.ORDER.asc;
 import static org.junit.Assert.assertEquals;
 

@@ -1,8 +1,8 @@
-package makson.search.solr.repository;
+package makcon.solr.client.repository;
 
-import makson.search.solr.dataobject.SolrDoc;
-import makson.search.solr.dataobject.SolrInputDoc;
-import makson.search.solr.exception.RepositoryAccessException;
+import makcon.solr.client.dataobject.SolrInputDoc;
+import makcon.solr.client.dataobject.SolrDoc;
+import makcon.solr.client.exception.RepositoryAccessException;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.response.QueryResponse;
 

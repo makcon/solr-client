@@ -1,7 +1,7 @@
-package makson.search.solr.builder;
+package makcon.solr.client.builder;
 
 import lombok.RequiredArgsConstructor;
-import makson.search.solr.constant.QueryParams;
+import makcon.solr.client.constant.QueryParams;
 
 import javax.annotation.Nonnull;
 import java.time.Instant;
@@ -12,8 +12,8 @@ import java.util.*;
 
 import static java.time.ZoneOffset.UTC;
 import static java.util.stream.Collectors.joining;
-import static makson.search.solr.builder.FQ.JoinOperator.AND;
-import static makson.search.solr.builder.FQ.JoinOperator.OR;
+import static makcon.solr.client.builder.FQ.JoinOperator.AND;
+import static makcon.solr.client.builder.FQ.JoinOperator.OR;
 
 public final class FQ {
 

@@ -1,4 +1,4 @@
-package makson.search.solr.constant;
+package makcon.solr.client.constant;
 
 public enum SolrFieldModifier {
 

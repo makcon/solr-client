@@ -1,4 +1,4 @@
-package makson.search.solr.builder;
+package makcon.solr.client.builder;
 
 import org.junit.Test;
 
@@ -11,8 +11,8 @@ import java.util.Set;
 import static java.time.ZoneOffset.UTC;
 import static java.util.Arrays.asList;
 import static java.util.Collections.singletonList;
-import static makson.search.solr.builder.FQ.and;
-import static makson.search.solr.builder.FQ.or;
+import static makcon.solr.client.builder.FQ.and;
+import static makcon.solr.client.builder.FQ.or;
 import static org.junit.Assert.assertEquals;
 
 public class FQTest {

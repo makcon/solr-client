@@ -1,15 +1,12 @@
-package makson.search.solr.dataobject;
+package makcon.solr.client.dataobject;
 
-import makson.search.solr.constant.SolrFieldModifier;
+import makcon.solr.client.constant.SolrFieldModifier;
 import org.apache.solr.common.SolrInputDocument;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import static makson.search.solr.constant.SolrFieldModifier.ADD;
-import static makson.search.solr.constant.SolrFieldModifier.SET;
 
 public final class SolrInputDoc {
 
@@ -144,7 +141,7 @@ public final class SolrInputDoc {
             if (newDoc) {
                 fieldsMap.put(solrField, value);
             } else if (value != null) {
-                fieldsToUpdateMap.put(solrField, addFieldModifier(value, SET));
+                fieldsToUpdateMap.put(solrField, addFieldModifier(value, SolrFieldModifier.SET));
             }
 
             return this;
@@ -155,7 +152,7 @@ public final class SolrInputDoc {
             if (newDoc) {
                 throw new UnsupportedOperationException("Use setField method for new document");
             }
-            fieldsToUpdateMap.put(solrField, addFieldModifier(value, ADD));
+            fieldsToUpdateMap.put(solrField, addFieldModifier(value, SolrFieldModifier.ADD));
 
             return this;
         }

@@ -1,4 +1,4 @@
-package makson.search.solr.exception;
+package makcon.solr.client.exception;
 
 public class FieldNotFoundException extends RuntimeException {
 

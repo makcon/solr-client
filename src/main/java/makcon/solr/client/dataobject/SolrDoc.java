@@ -1,6 +1,6 @@
-package makson.search.solr.dataobject;
+package makcon.solr.client.dataobject;
 
-import makson.search.solr.exception.FieldNotFoundException;
+import makcon.solr.client.exception.FieldNotFoundException;
 import org.apache.solr.common.SolrDocument;
 
 import javax.annotation.Nonnull;
